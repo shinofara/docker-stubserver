@@ -1,0 +1,13 @@
+-
+  request:
+    url: /jsonrpc
+    method: POST
+    body:
+      # if your server accept jsonrpc, need jsonrpc prop.
+      jsonrpc: "2.0"
+      # need jsonrpc method prop.
+      method: "sum"
+  response:
+    status: 200
+    body: '{"message": "hello"}'
+    #file: jsonrpc/sum.json
